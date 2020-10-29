@@ -34,6 +34,7 @@ export default {
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/pwa
+    'nuxt-client-init-module',
     '@nuxtjs/pwa',
     '@nuxtjs/firebase',
   ],
@@ -41,6 +42,14 @@ export default {
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
     transpile: ['vee-validate/dist/rules'],
+  },
+  typescript: {
+    typeCheck: {
+      eslint: {
+        exclude: ['functions'],
+        files: './**/*.{ts,js,vue}',
+      },
+    },
   },
 
   firebase: {

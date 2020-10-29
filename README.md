@@ -1,4 +1,9 @@
-# typocool2
+# Typocool 2
+
+Typocool 2 is the evolution of a previous text editor project called Typocool.
+
+Features :
+* Rich text editing with Markdown shortcuts
 
 ## Build Setup
 

@@ -1,0 +1,2 @@
+# ignore cloud functions folder
+functions/*

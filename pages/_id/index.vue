@@ -28,7 +28,7 @@ import {
   TodoItem,
   TodoList,
 } from 'tiptap-extensions'
-import schema from '../../utils/schema'
+import schema from '../../constants/schema'
 
 export default {
   middleware: 'auth',
@@ -144,24 +144,28 @@ export default {
     init() {
       console.log(this.creator)
       if (!this.creator) {
+        this.loader?.close()
         console.log('throw 404')
         this.$nuxt.context.error({
           message: 'Sorry, this doc could not be found',
           statusCode: 404,
         })
-        this.loader?.close()
         return
       }
       // if user is creator, skip this part, he has all the rights
       if (this.creator !== this.user.uid) {
-        this.readOnly = !this.editors.includes(this.user.uid) // only editors and creator can edit the doc
-        if (!this.viewers.includes(this.user.uid)) {
+        if (
+          !this.viewers.includes(this.user.uid) &&
+          !this.editors.includes(this.user.uid)
+        ) {
+          this.loader?.close()
+          console.log('unauthorized')
           this.$nuxt.context.error({
             message: 'Sorry, you are not authorized to view this document',
             statusCode: 403,
           })
-          this.loader?.close()
         }
+        this.readOnly = this.viewers.includes(this.user.uid)
       }
 
       // create editor

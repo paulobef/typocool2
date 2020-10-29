@@ -60,6 +60,9 @@
       <template #header>
         <h4 class="not-margin">Document settings</h4>
       </template>
+      <div class="dialog-content">
+        <doc-settings-form />
+      </div>
     </vs-dialog>
   </div>
 </template>
@@ -68,11 +71,14 @@
 import { ValidationProvider } from 'vee-validate'
 import { mixin as clickaway } from 'vue-clickaway'
 import GlobalSettingsForm from '@/containers/GlobalSettingsForm'
+import DocSettingsForm from '@/containers/DocSettingsForm'
 import loader from '../components/loader'
 import DocList from '../containers/DocList.vue'
 
 export default {
+  middleware: 'theme',
   components: {
+    DocSettingsForm,
     GlobalSettingsForm,
     DocList,
     ValidationProvider,
@@ -159,14 +165,27 @@ export default {
 }
 </script>
 <style>
+[vs-theme='dark'] {
+  background-color: rgb(var(--vs-background));
+  color: rgb(var(--vs-text));
+}
 .dialog-content {
-  margin: 20px 0px;
+  margin: 20px 0;
   position: relative;
-  display: block;
+  display: flex;
+  flex-direction: column;
   font-size: 0.9rem;
 }
 .flex {
   display: flex;
+}
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-padding {
+  padding-bottom: 10px;
 }
 .name-container {
   padding: 0;
@@ -176,5 +195,9 @@ export default {
   padding: 120px 30px;
   max-width: 700px;
   margin: auto;
+}
+.center {
+  display: flex;
+  justify-content: center;
 }
 </style>

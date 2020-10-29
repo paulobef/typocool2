@@ -123,8 +123,8 @@ export default {
             },
           })
         await this.$router.push({
-          path: '/' + metaDocRef.id,
-          query: { q: this.q },
+          name: 'id',
+          params: { id: metaDocRef.id },
         })
         // we don't add steps yet
       } catch (error) {
