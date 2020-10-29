@@ -14023,10 +14023,10 @@ vue@^2.6.12:
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
   integrity sha512-uhmLFETqPPNyuLLbsKz6ioJ4q7AZHzD8ZVFNATNyICSZouqP2Sz0rotWQC8UNBF6VGSCs5abnKJoStA6JbCbfg==
 
-vuesax@^4.0.1-alpha.24:
-  version "4.0.1-alpha.24"
-  resolved "https://registry.yarnpkg.com/vuesax/-/vuesax-4.0.1-alpha.24.tgz#1bcc92b27b6ceb7a1adcf7452ada77a51f4d6459"
-  integrity sha512-l4584znm9MISZkM5fM4cDWZOGDrtoYh9vLysQRZ0HQ4XU/xdw6+hXb2GmwLGu+twsBc8qZdJ/RzLQkx0LO4OJQ==
+vuesax@^4.0.1-alpha.25:
+  version "4.0.1-alpha.25"
+  resolved "https://registry.yarnpkg.com/vuesax/-/vuesax-4.0.1-alpha.25.tgz#2fb97ac8e4f3d479622d2dc6b498e5e57d44495d"
+  integrity sha512-cVLpKsem/YsMSbiy2s2M0O6rr8wrakOUFn0JYxtVQ1WgbVUD0/kU2/GMPVeRBNOh+30tRy2TKreFmjqc53vIBQ==
   dependencies:
     vue-router "^3.3.4"
 
