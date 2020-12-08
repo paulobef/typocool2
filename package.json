@@ -39,7 +39,7 @@
     "vue-clickaway": "^2.2.2",
     "vue-color-picker-wheel": "^0.4.3",
     "vuesax": "^4.0.1-alpha.24",
-    "vuexfire": "^3.2.4"
+    "vuexfire": "^3.2.5"
   },
   "devDependencies": {
     "@nuxt/types": "^2.14.5",
