@@ -9965,10 +9965,10 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nuxt-client-init-module@^0.1.9:
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/nuxt-client-init-module/-/nuxt-client-init-module-0.1.9.tgz#f01580ecd9414b522def840d16354be5910dbe09"
-  integrity sha512-HPm4tdxQG2G/IdyyCSqxyD3arFZaKA2tA08zxpmf1cWfRKTSW/qu1KCAcydbMljIeHhIMIBmupWlMwSWlGtGZA==
+nuxt-client-init-module@^0.1.10:
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/nuxt-client-init-module/-/nuxt-client-init-module-0.1.10.tgz#71f4403ce45b854f6545d2156cadee49b3790e96"
+  integrity sha512-NR8zlu0NBHi68FyDapkehzjQ3RyrecTvTSLwB5UBBp9pMnsNP/wL7yj07SKiGvDfUZwJc7/TMVt/so/H6q44+w==
 
 nuxt-material-design-icons@^1.0.4:
   version "1.0.4"
