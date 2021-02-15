@@ -16,7 +16,7 @@
     "@nuxt/typescript-runtime": "^2.0.0",
     "@nuxtjs/firebase": "^6.1.1",
     "@nuxtjs/pwa": "^3.0.2",
-    "@types/prosemirror-model": "^1.7.4",
+    "@types/prosemirror-model": "^1.11.3",
     "@types/prosemirror-schema-basic": "^1.0.1",
     "@types/prosemirror-schema-list": "^1.0.1",
     "@types/prosemirror-transform": "^1.1.1",

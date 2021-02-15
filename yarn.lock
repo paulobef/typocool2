@@ -2320,10 +2320,10 @@
   resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-2.1.1.tgz#be148756d5480a84cde100324c03a86ae5739fb5"
   integrity sha512-2zs+O+UkDsJ1Vcp667pd3f8xearMdopz/z54i99wtRDI5KLmngk7vlrYZD0ZjKHaROR03EznlBbVY9PfAEyJIQ==
 
-"@types/prosemirror-model@*", "@types/prosemirror-model@^1.7.4":
-  version "1.7.4"
-  resolved "https://registry.yarnpkg.com/@types/prosemirror-model/-/prosemirror-model-1.7.4.tgz#fdbee6af3f450cdac6ab915cec3b033c598e0c7d"
-  integrity sha512-nXDcEopJ1fqeSJhGHxQMLd1VKWfA0kRaNLvK30CZhGXOKRySk66hWyrqo9swdGzzGtGZ7VzjDkECo0L4ScYk+w==
+"@types/prosemirror-model@*", "@types/prosemirror-model@^1.11.3":
+  version "1.11.3"
+  resolved "https://registry.yarnpkg.com/@types/prosemirror-model/-/prosemirror-model-1.11.3.tgz#22ba40e7f727de830ed9c6724fb8013b2b384768"
+  integrity sha512-tUnOUwwiyIFN18mdXkT9D7xIqCeszu6ePa3s0/uGCgtW009l9AaNRep69L7BORWHGCAvYVaqYB0cybSHXs4MuQ==
   dependencies:
     "@types/orderedmap" "*"
 
