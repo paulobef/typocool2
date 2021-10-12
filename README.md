@@ -4,6 +4,8 @@ Typocool 2 is the evolution of a previous text editor project called Typocool.
 
 Features :
 * Rich text editing with Markdown shortcuts
+* Real-time collaborative editing across clients
+* Share link generation
 
 ## Build Setup
 
