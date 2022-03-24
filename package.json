@@ -12,7 +12,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@mdi/font": "^5.6.55",
+    "@mdi/font": "^6.6.95",
     "@nuxt/typescript-runtime": "^2.0.0",
     "@nuxtjs/firebase": "^6.1.1",
     "@nuxtjs/pwa": "^3.0.2",
