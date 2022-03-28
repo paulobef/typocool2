@@ -1513,10 +1513,10 @@
   resolved "https://registry.yarnpkg.com/@mdi/font/-/font-4.9.95.tgz#00ed2ffe289c9230f146e74559c07542d3f4475a"
   integrity sha512-m2sbAs+SMwRnWpkMriBxEulwuhmqRyh6X+hdOZlqSxYZUM2C2TaDnQ4gcilzdoAgru2XYnWViZ/xPuSDGgRXVw==
 
-"@mdi/font@^5.6.55":
-  version "5.6.55"
-  resolved "https://registry.yarnpkg.com/@mdi/font/-/font-5.6.55.tgz#3536d7a7671eda9d5d9ba191b9fb9aceccc0a07e"
-  integrity sha512-6wWrpTXiv2wBtoCL+EJ9Xxfy6Tv6Q1KxmrX54/M23tBNmdGmh417y1tn327oXQxO1nq7BiHGAKkWQZ/GQPLTCA==
+"@mdi/font@^6.6.96":
+  version "6.6.96"
+  resolved "https://registry.yarnpkg.com/@mdi/font/-/font-6.6.96.tgz#4eee6faee5f44d3ec401d354fb95775cd6699575"
+  integrity sha512-FbcvG9z17hwZ7IwX5XeOR1UYGoLq+gTKq6XNPvJFuCpn599GdiPCJbAmmDBJb+jMYXjKYr0lCxfouWGxDA82sA==
 
 "@nodelib/fs.scandir@2.1.3":
   version "2.1.3"
